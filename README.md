@@ -30,7 +30,6 @@ This step yielded the 3K-RG haplotype file for each window. Named as 3K-HAP.hapl
 ## **3. NAF-score calculation in 3K-RG**
 
 Assuming a population with *m* subpopulations, we defined a NAF-score (Normalized Allele Frequency score) of a certain subpopulation *k* for a certain haplotype in a 10-kb window following the equation below:
-
 ![image](https://latex.codecogs.com/gif.latex?score_{k}=\frac{a_{k}/n_{k}}{\sum_{i=1}^{m}(a_{i}/n_{i})})
 
 where *n* is the sample number of a subpopulation and *a* is the number of samples from a subpopulation that possess a certain haplotype in this window.
@@ -80,7 +79,7 @@ Then merge NAF-score for each 100 kb window.
 
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
-An example, genome-wide subpopulation ancestry inference of elite Chinese rice cultivar 稻花香2号 (DHX2):
+An example, genome-wide subpopulation ancestry inference of elite Chinese rice cultivar DHX2 ("稻花香2号"):
 
 ![image](https://raw.githubusercontent.com/zhuochenbioinfo/3KRG-HAP/master/data/DHX2.bin_NAF.pdf.png)
 
