@@ -83,6 +83,8 @@ An example, genome-wide subpopulation ancestry inference elite Chinese rice cult
 
 ![image](https://raw.githubusercontent.com/zhuochenbioinfo/3KRG-HAP/master/data/DHX2.bin_NAF.pdf.png)
 
+*NGS data of DHX2 is obtained from Zhao et al., Nat.Genet. 2018.*
+
 # References
 
 Li JY, Wang J, Zeigler RS. The 3,000 rice genomes project: new opportunities and challenges for future rice research. Gigascience. 2014;3:8. Published 2014 May 28. doi:10.1186/2047-217X-3-8
@@ -90,6 +92,8 @@ Li JY, Wang J, Zeigler RS. The 3,000 rice genomes project: new opportunities and
 3,000 rice genomes project. The 3,000 rice genomes project. Gigascience. 2014;3:7. Published 2014 May 28. doi:10.1186/2047-217X-3-7
 
 Wang W, Mauleon R, Hu Z, et al. Genomic variation in 3,010 diverse accessions of Asian cultivated rice. Nature. 2018;557(7703):43–49. doi:10.1038/s41586-018-0063-9
+
+Zhao Q, Feng Q, Lu H, et al. Pan-genome analysis highlights the extent of genomic variation in cultivated and wild rice [published correction appears in Nat Genet. 2018 Aug;50(8):1196]. Nat Genet. 2018;50(2):278–284. doi:10.1038/s41588-018-0041-z
 
 # Citation
 
