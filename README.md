@@ -69,3 +69,15 @@ Then merge NAF-score for each 100 kb window.
 
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
+# References
+
+Li JY, Wang J, Zeigler RS. The 3,000 rice genomes project: new opportunities and challenges for future rice research. Gigascience. 2014;3:8. Published 2014 May 28. doi:10.1186/2047-217X-3-8
+
+3,000 rice genomes project. The 3,000 rice genomes project. Gigascience. 2014;3:7. Published 2014 May 28. doi:10.1186/2047-217X-3-7
+
+Wang W, Mauleon R, Hu Z, et al. Genomic variation in 3,010 diverse accessions of Asian cultivated rice. Nature. 2018;557(7703):43–49. doi:10.1038/s41586-018-0063-9
+
+# Citation:
+
+Chen Zhuo et al. Genomic Footprints of Breeding in a Large Chinese Rice Collection. In preparation.
+
