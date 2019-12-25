@@ -12,21 +12,21 @@ Here I introduce a haplotype-based pipeline for subpopulation ancestry inference
 # Pipeline
 
 
-**1. SNP pruning**
+## **1. SNP pruning**
 
 `perl SNP_pruning.r2.pl --in 3K-RG.vcf --out 3K-RG.geno`
 
 This step yielded the 3K-SNP dataset. Named as 3K-SNP.geno in the following steps.
 
 
-**2. haplotype construction for 3K-RG**
+## **2. haplotype construction for 3K-RG**
 
 `perl geno_to_binhap.pl --in 3K-RG.geno --out 3K-HAP.haplotype`
 
 This step yielded the 3K-RG haplotype file for each window. Named as 3K-HAP.haplotype
 
 
-**3. NAF-score calculation in 3K-RG**
+## **3. NAF-score calculation in 3K-RG**
 
 Need a tab-delimited list of 3K-RG sample names and subpopulation assignment. Named as 3K-RG.sample_list
 
@@ -35,7 +35,7 @@ Need a tab-delimited list of 3K-RG sample names and subpopulation assignment. Na
 This step yielded a NAF-scores for each subpopulation on each haplotype. Named as 3K-RG.haplotype.NAF_score
 
 
-**4. genotyping in custom population**
+## **4. genotyping in custom population**
 
 Make a bed or interval file of SNPs in 3K-SNP dataset as required in GATK UnifiedGenotyper
 
@@ -44,7 +44,7 @@ Perform genotyping using GATK UnifiedGenotyper with these parameters: --L 3K-SNP
 This step yielded VCF format genotype file of 3K-SNPs in custom population. Named as custom.vcf.
 
 
-**5. haplotype construction in custom population**
+## **5. haplotype construction in custom population**
 
 Make a varlist for haplotype construction with this command:
 
@@ -53,7 +53,7 @@ Make a varlist for haplotype construction with this command:
 `perl gatk_vcf_to_haplotype_with_varlist.pl --vcf custom.vcf --var 3K-SNP.varlist --out custom.haplotype`
 
 
-**6. haplotype matching and NAF-score for custom population**
+## **6. haplotype matching and NAF-score for custom population**
 
 `perl classify_sample_haplotype_score.pl custom.haplotype 3K-RG.haplotype.NAF_score outpath/`
 
@@ -64,12 +64,12 @@ Then merge NAF-score for each 100 kb window.
 `perl scan_haplotype_stdratio.pl sample.NAF 10kb_window.bed sample.bin_NAF`
 
 
-**7. window subpopulation assignment**
+## **7. window subpopulation assignment**
 
 `perl dissect_rice_bin.pl sample.bin_NAF > sample.bin_NAF`
 
 
-**8. plotting sample binmap**
+## **8. plotting sample binmap**
 
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
