@@ -66,5 +66,6 @@ Then merge NAF-score for each 100 kb window.
 
 
 **8. plotting sample binmap**
+
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
