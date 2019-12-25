@@ -79,6 +79,10 @@ Then merge NAF-score for each 100 kb window.
 
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
+An example, genome-wide subpopulation ancestry inference elite Chinese rice cultivar 稻花香2号 (DHX2):
+
+![image](https://raw.githubusercontent.com/zhuochenbioinfo/3KRG-HAP/master/data/DHX2.bin_NAF.pdf.png)
+
 # References
 
 Li JY, Wang J, Zeigler RS. The 3,000 rice genomes project: new opportunities and challenges for future rice research. Gigascience. 2014;3:8. Published 2014 May 28. doi:10.1186/2047-217X-3-8
