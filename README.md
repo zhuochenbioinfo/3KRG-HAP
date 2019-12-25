@@ -81,7 +81,7 @@ Li JY, Wang J, Zeigler RS. The 3,000 rice genomes project: new opportunities and
 
 Wang W, Mauleon R, Hu Z, et al. Genomic variation in 3,010 diverse accessions of Asian cultivated rice. Nature. 2018;557(7703):43–49. doi:10.1038/s41586-018-0063-9
 
-# Citation:
+# Citation
 
 Chen Zhuo et al. Genomic Footprints of Breeding in a Large Chinese Rice Collection. In preparation.
 
