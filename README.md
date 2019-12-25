@@ -30,6 +30,7 @@ This step yielded the 3K-RG haplotype file for each window. Named as 3K-HAP.hapl
 ## **3. NAF-score calculation in 3K-RG**
 
 Assuming a population with *m* subpopulations, we defined a NAF-score (Normalized Allele Frequency score) of a certain subpopulation *k* for a certain haplotype in a 10-kb window following the equation below:
+
 ![image](https://latex.codecogs.com/gif.latex?score_{k}=\frac{a_{k}/n_{k}}{\sum_{i=1}^{m}(a_{i}/n_{i})})
 
 where *n* is the sample number of a subpopulation and *a* is the number of samples from a subpopulation that possess a certain haplotype in this window.
