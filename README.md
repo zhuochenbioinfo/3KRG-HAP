@@ -1,6 +1,10 @@
 # 3KRG-HAP
 
-Haplotype marker based on 3,000 Rice Genomes for subpopulation inference
+Haplotype marker based on 3,000 Rice Genomes (3K-RG) Project for genome-wide subpopulation ancestry inference.
+
+The 3,000 Rice Genomes (3K-RG) Project released the resequencing data of over 3,000 rice samples worldwide. 3K-RG population consists of two subspecies and multiple subpopulations. Within them, the four subpopulations with largest sample number are *indica*, tropical *japonica*, temperate *japonica* and *aus*.
+
+Here I introduce a haplotype-based pipeline for subpopulation ancestry inference using 3K-RG as a background population.
 
 ***NOTICE: This is a highly specialized pipeline and may be awkward for other uses. But some scripts in this pipeline may be usable for other situations.***
 
