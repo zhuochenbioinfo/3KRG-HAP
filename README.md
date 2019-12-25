@@ -83,7 +83,7 @@ An example, genome-wide subpopulation ancestry inference of elite Chinese rice c
 
 ![image](https://raw.githubusercontent.com/zhuochenbioinfo/3KRG-HAP/master/data/DHX2.bin_NAF.pdf.png)
 
-*NGS data of DHX2 is obtained from Zhao et al., Nat.Genet. 2018.*
+*NGS data of this DHX2 sample was obtained from Zhao et al., Nat.Genet. 2018.*
 
 # References
 
