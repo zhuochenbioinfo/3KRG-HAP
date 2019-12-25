@@ -79,7 +79,7 @@ Then merge NAF-score for each 100 kb window.
 
 `Rscript draw_bin.rice.R chr.len sample.bin_NAF sample.bin_NAF.pdf`
 
-An example, genome-wide subpopulation ancestry inference elite Chinese rice cultivar 稻花香2号 (DHX2):
+An example, genome-wide subpopulation ancestry inference of elite Chinese rice cultivar 稻花香2号 (DHX2):
 
 ![image](https://raw.githubusercontent.com/zhuochenbioinfo/3KRG-HAP/master/data/DHX2.bin_NAF.pdf.png)
 
