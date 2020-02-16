@@ -8,6 +8,8 @@ Here I introduce a haplotype-based pipeline for subpopulation ancestry inference
 
 ***NOTICE: This is a highly specialized pipeline and may be awkward for other uses. But some scripts in this pipeline may be usable for other situations.***
 
+***NOTICE: The formulas and pictures on this page may not be displayed properly in some regions due to local Internet policies.***
+
 If you have any questions, suggestions or interests about this project, please feel free to contact: chenomics@163.com or zhuochen@genetics.ac.cn.
 
 # Pipeline
