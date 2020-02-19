@@ -6,7 +6,7 @@ The 3,000 Rice Genomes Project released the resequencing data of over 3,000 rice
 
 Here I introduce a haplotype-based pipeline for subpopulation ancestry inference using 3K-RG as a background population.
 
-$\color{red}{***NOTICE 1: This is a highly specialized pipeline and may be awkward for other uses. But some scripts in this pipeline may be usable for other situations.***}$
+***NOTICE 1: This is a highly specialized pipeline and may be awkward for other uses. But some scripts in this pipeline may be usable for other situations.***
 
 ***NOTICE 2: The formulas and pictures in this page may not be displayed properly in some regions due to local Internet policies.***
 
