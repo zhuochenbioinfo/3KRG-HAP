@@ -100,5 +100,5 @@ Zhao Q, Feng Q, Lu H, et al. Pan-genome analysis highlights the extent of genomi
 
 # Citation
 
-Chen Zhuo et al. Genomic Footprints of Breeding in a Large Chinese Rice Collection. In preparation.
+Zhuo Chen et al. Genomic atlases of introgression and differentiation reveal breeding footprints in Chinese cultivated rice. Under review.
 
