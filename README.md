@@ -59,7 +59,9 @@ Make a varlist for haplotype construction with this command:
 
 `cat 3K-SNP.geno | grep -v "^#"| awk '{bin=int(($2-1)/10000);name=sprintf("%05d",bin);print $1"\t"$2"\t"$3"\t"$4"\t"$1"_"name}' > 3K-SNP.varlist`
 
-`perl gatk_vcf_to_haplotype_with_varlist.pl --vcf custom.vcf --var 3K-SNP.varlist --out custom.haplotype --nohet`
+`perl gatk_vcf_to_haplotype_with_varlist.pl --vcf custom.vcf --var 3K-SNP.varlist --out custom/haplotype/path/ --nohet`
+
+`cat custom/haplotype/path/*.haplotype > custom.haplotype`
 
 
 ## **6. haplotype matching and NAF-score for custom population**
