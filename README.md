@@ -44,7 +44,7 @@ Need a tab-delimited list of 3K-RG sample names and subpopulation assignment. Na
 
 `perl haplotype_to_subtype_standard.pl 3K-HAP.haplotype 3K-RG.sample_list 3K-HAP.haplotype.NAF_score`
 
-This step yielded a NAF-scores for each subpopulation on each haplotype. Named as **3K-RG.haplotype.NAF_score**. **For the convenience of users， this file is provided in ./data/ and you can skip the first two steps.**
+This step yielded a NAF-scores for each subpopulation on each haplotype. Named as **3K-RG.haplotype.NAF_score**. **For the convenience of users, this file is provided in ./data/ and you can skip the first two steps.**
 
 
 ## **4. genotyping in custom population**
