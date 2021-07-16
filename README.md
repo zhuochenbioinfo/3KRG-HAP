@@ -44,7 +44,9 @@ Need a tab-delimited list of 3K-RG sample names and subpopulation assignment. Na
 
 `perl haplotype_to_subtype_standard.pl 3K-HAP.haplotype 3K-RG.sample_list 3K-HAP.haplotype.NAF_score`
 
-This step yielded a NAF-scores for each subpopulation on each haplotype. Named as **3K-RG.haplotype.NAF_score**. **For the convenience of users, this file is provided in ./data/ and you can skip the first two steps.**
+This step yielded a NAF-scores for each subpopulation on each haplotype. Named as **3K-RG.haplotype.NAF_score**. 
+
+***Note: For the convenience of users, this file is provided in ./data/ and you can skip the first two steps.***
 
 
 ## **4. genotyping in custom population**
@@ -55,7 +57,7 @@ Perform genotyping using GATK UnifiedGenotyper with these parameters: --L 3K-SNP
 
 This step yielded VCF format genotype file of 3K-SNPs in custom population. Named as custom.vcf.
 
-**3K-SNP.bed is provided in ./data/**
+***Note: 3K-SNP.bed is provided in ./data/***
 
 
 ## **5. haplotype construction in custom population**
@@ -68,7 +70,7 @@ Make a varlist for haplotype construction with this command:
 
 `cat custom/haplotype/path/*.haplotype > custom.haplotype`
 
-**3K-SNP.varlist is provided in ./data/**
+***Note: 3K-SNP.varlist is provided in ./data/***
 
 
 ## **6. haplotype matching and NAF-score for custom population**
