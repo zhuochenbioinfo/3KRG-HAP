@@ -14,6 +14,9 @@ If you have any questions, suggestions or interests about this project, please f
 
 # Pipeline
 
+## **0. Ref Genome**
+
+Reference genome used in this pipeline is Nipponbare genome from: http://rice.plantbiology.msu.edu/index.shtml
 
 ## **1. SNP pruning**
 
