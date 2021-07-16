@@ -12,6 +12,8 @@ Here I introduce a haplotype-based pipeline for subpopulation ancestry inference
 
 If you have any questions, suggestions or interests about this project, please feel free to contact: chenomics@163.com or zhuochen@genetics.ac.cn.
 
+![image](https://github.com/zhuochenbioinfo/3KRG-HAP/blob/master/data/3K-HAP-pipeline.png
+
 # Pipeline
 
 ## **0. Ref Genome**
