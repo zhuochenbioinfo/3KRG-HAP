@@ -10,7 +10,7 @@ Here I introduce a haplotype-based pipeline for subpopulation ancestry inference
 
 ***NOTICE 2: The formulas and pictures in this page may not be displayed properly in some regions due to local Internet policies.***
 
-If you have any questions, suggestions or interests about this project, please feel free to contact: chenomics@163.com or zhuochen@genetics.ac.cn.
+If you have any questions, suggestions or interests about this project, please feel free to contact: chenomics@163.com or zhuochen@fafu.edu.cn
 
 # Pipeline
 
