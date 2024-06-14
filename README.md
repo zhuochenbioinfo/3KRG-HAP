@@ -12,6 +12,10 @@ Here I introduce a haplotype-based pipeline for subpopulation ancestry inference
 
 If you have any questions, suggestions or interests about this project, please feel free to contact: chenomics@163.com or zhuochen@fafu.edu.cn
 
+**20240614**
+
+**A refined version of 3KRG-HAP pipeline is available in *pipe_3KHAP.v20240614.zip*. Take a try!**
+
 # Pipeline
 
 **Pipeline of 3K-RG subpopulation marker construction and assignment:**
